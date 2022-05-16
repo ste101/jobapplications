@@ -165,23 +165,27 @@
 		</div>
 		<div class="container-buttons">
 			<f:link.action action="listApplications" arguments="{contact: contact}" class="btn-jobapplications btn-secondary" id="btn-show-back">
+				<core:icon identifier="actions-arrow-down-left" size="small" />
 				<f:translate key="fe.posting.show.backlink"/>
 			</f:link.action>
 			<f:if condition="{application.archived}">
 				<f:then>
 					<f:link.action action="showApplication" arguments="{application: application, archive: 1}" class="btn-jobapplications btn-secondary">
+						<core:icon identifier="actions-archive" size="small" />
 						<f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.show.dearchive"></f:translate>
 					</f:link.action>
 				</f:then>
 				<f:else>
 					<f:link.action action="showApplication" arguments="{application: application, archive: 1}" class="btn-jobapplications btn-secondary">
+						<core:icon identifier="actions-archive" size="small" />
 						<f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.show.archive"></f:translate>
 					</f:link.action>
 				</f:else>
 			</f:if>
 
 			<f:link.action action="showApplication" arguments="{application: application, delete: 1}" class="btn-jobapplications btn-critical">
-				<f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.show.delete"></f:translate>
+				<f:comment><f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.show.delete"></f:translate></f:comment>
+				<core:icon identifier="actions-delete" size="small" />
 			</f:link.action>
 		</div>
 	</div>
