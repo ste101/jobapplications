@@ -267,6 +267,18 @@
             <trans-unit id="be.widget_group.jobapplications" resname="be.widget_group.jobapplications">
                 <source>Jobs</source>
             </trans-unit>
+            <trans-unit id="be.element.tableheader.name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="be.element.tableheader.application">
+                <source>Application for</source>
+            </trans-unit>
+            <trans-unit id="be.element.tableheader.status">
+                <source>Status</source>
+            </trans-unit>
+            <trans-unit id="be.element.tableheader.date">
+                <source>Date</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

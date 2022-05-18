@@ -61,7 +61,37 @@
 			</div>
 		</div>
 		<hr>
+
 		<div class="app-list">
+			<!--Tabellenüberschrift Start-->
+
+			<ul class="application-list">
+				<li>
+					<div class="list-item-container applicationTableHeader">
+						<div class="row-section left">
+							<div>
+								<b><f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.element.tableheader.name"/></b>
+							</div>
+						</div>
+						<div class="row-section middle">
+							<div>
+								<b><f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.element.tableheader.application"/></b>
+							</div>
+						</div>
+						<div class="row-section right">
+							<div class="row-section left">
+								<b><f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.element.tableheader.status"/></b>
+							</div>
+							<div class="row-section middle">
+								<b><f:translate key="LLL:EXT:jobapplications/Resources/Private/Language/locallang_backend.xlf:be.element.tableheader.date"/></b>
+							</div>
+							<!--<div class="row-section right">Sonstiges</div>-->
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!--Tabellenüberschrift Ende-->
+
 			<f:if condition="{applications}">
 				<f:then>
 						<ul class="application-list">
