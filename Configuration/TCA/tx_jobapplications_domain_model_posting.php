@@ -485,7 +485,8 @@ return [
                 ],
                 'fallbackCharacter' => '-',
                 'eval' => $slugBehaviour,
-                'default' => ''
+                'default' => '',
+                'size' => 50,
             ],
         ],
     ],
