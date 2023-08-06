@@ -496,10 +496,10 @@ return [
     ],
     'palettes' => [
         'general' => [
-            'showitem' => 'sys_language_uid, hidden, --linebreak--, slug, l10n_parent, l10n_diffsource',
+            'showitem' => 'sys_language_uid, hidden, l10n_parent, l10n_diffsource',
         ],
         'mainInfo' => [
-            'showitem' => 'title, division'
+            'showitem' => 'title, division, --linebreak--, slug'
         ],
         'circumstances' => [
             'showitem' => 'base_salary, career_level, --linebreak--, employment_type, terms_of_employment'
