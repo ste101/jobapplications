@@ -29,7 +29,6 @@ CREATE TABLE `tx_jobapplications_domain_model_status` (
   `pid` int(11) NOT NULL DEFAULT '0',
   `tstamp` int(10) UNSIGNED NOT NULL DEFAULT '0',
   `crdate` int(10) UNSIGNED NOT NULL DEFAULT '0',
-  `cruser_id` int(10) UNSIGNED NOT NULL DEFAULT '0',
   `deleted` smallint(5) UNSIGNED NOT NULL DEFAULT '0',
   `hidden` smallint(5) UNSIGNED NOT NULL DEFAULT '0',
   `starttime` int(10) UNSIGNED NOT NULL DEFAULT '0',
